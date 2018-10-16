@@ -4,7 +4,7 @@ var path = require('path');
 
 app.use(express.static(__dirname + '/public'));
 
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 3000
+var server_port = 8080
 var server_ip_address = '0.0.0.0'
 
 
